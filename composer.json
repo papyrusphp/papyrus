@@ -18,16 +18,15 @@
     ],
     "require": {
         "php": "^8.1",
-        "papyrus/class-reflection-domain-event-registry": "^0.2",
+        "papyrus/class-reflection-domain-event-registry": "^0.3",
         "papyrus/clock": "^0.1",
-        "papyrus/doctrine-dbal-event-store": "^0.2",
-        "papyrus/domain-event-registry": "^0.2",
-        "papyrus/event-sourcing": "^0.2",
-        "papyrus/event-store": "^0.2",
+        "papyrus/doctrine-dbal-event-store": "^0.3",
+        "papyrus/domain-event-registry": "^0.3",
+        "papyrus/event-store": "^0.3",
         "papyrus/identity-generator": "^0.1",
         "papyrus/ramsey-uuid-identity-generator": "^0.1",
-        "papyrus/serializer": "^0.2",
-        "papyrus/symfony-serializer": "^0.2"
+        "papyrus/serializer": "^0.3",
+        "papyrus/symfony-serializer": "^0.3"
     },
     "config": {
         "sort-packages": true

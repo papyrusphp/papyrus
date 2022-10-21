@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b2b5f2ef5e8cb2b5b1397c567731a76",
+    "content-hash": "a458168f4072e5410ad423bc9ea2d16e",
     "packages": [
         {
             "name": "brick/math",
@@ -402,6 +402,97 @@
             "time": "2022-10-12T20:51:15+00:00"
         },
         {
+            "name": "doctrine/inflector",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "d9d313a36c872fd6ee06d9a6cbcf713eaa40f024"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/d9d313a36c872fd6ee06d9a6cbcf713eaa40f024",
+                "reference": "d9d313a36c872fd6ee06d9a6cbcf713eaa40f024",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^10",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.3",
+                "phpunit/phpunit": "^8.5 || ^9.5",
+                "vimeo/psalm": "^4.25"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
+            "keywords": [
+                "inflection",
+                "inflector",
+                "lowercase",
+                "manipulation",
+                "php",
+                "plural",
+                "singular",
+                "strings",
+                "uppercase",
+                "words"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/inflector/issues",
+                "source": "https://github.com/doctrine/inflector/tree/2.0.6"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-20T09:10:12+00:00"
+        },
+        {
             "name": "jerowork/file-class-reflector",
             "version": "0.1.1",
             "source": {
@@ -518,27 +609,26 @@
         },
         {
             "name": "papyrus/class-reflection-domain-event-registry",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/class-reflection-domain-event-registry.git",
-                "reference": "cd5f7cfec9548a78faf42a536663990802bf8ec2"
+                "reference": "9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/cd5f7cfec9548a78faf42a536663990802bf8ec2",
-                "reference": "cd5f7cfec9548a78faf42a536663990802bf8ec2",
+                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3",
+                "reference": "9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3",
                 "shasum": ""
             },
             "require": {
                 "jerowork/file-class-reflector": "^0.1",
-                "papyrus/domain-event-registry": "^0.1.0",
-                "papyrus/event-sourcing": "^0.1.0",
+                "papyrus/domain-event-registry": "^0.3",
                 "php": "^8.1",
                 "psr/simple-cache": "^1.0 || ^2.0 || ^3.0"
             },
             "provide": {
-                "papyrus/domain-event-registry-implementation": "0.1"
+                "papyrus/domain-event-registry-implementation": "0.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -582,9 +672,9 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/class-reflection-domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.2.0"
+                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.3.0"
             },
-            "time": "2022-10-12T17:52:09+00:00"
+            "time": "2022-10-21T19:13:58+00:00"
         },
         {
             "name": "papyrus/clock",
@@ -645,25 +735,27 @@
         },
         {
             "name": "papyrus/doctrine-dbal-event-store",
-            "version": "0.1.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/doctrine-dbal-event-store.git",
-                "reference": "9aee6ee1bac48acbc486493ac56ddc851cfc5644"
+                "reference": "8659b2544dd6fefd76dc7834e43b4a6842ad4f5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/9aee6ee1bac48acbc486493ac56ddc851cfc5644",
-                "reference": "9aee6ee1bac48acbc486493ac56ddc851cfc5644",
+                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/8659b2544dd6fefd76dc7834e43b4a6842ad4f5f",
+                "reference": "8659b2544dd6fefd76dc7834e43b4a6842ad4f5f",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^3.4",
-                "papyrus/domain-event-registry": "^0.1",
-                "papyrus/event-sourcing": "^0.1",
-                "papyrus/event-store": "^0.1",
-                "papyrus/serializer": "^0.1",
+                "papyrus/domain-event-registry": "^0.3",
+                "papyrus/event-store": "^0.3",
+                "papyrus/serializer": "^0.3",
                 "php": "^8.1"
+            },
+            "provide": {
+                "papyrus/event-store-implementation": "0.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -707,33 +799,37 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/doctrine-dbal-event-store/issues",
-                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.1.0"
+                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.3.0"
             },
-            "time": "2022-10-09T08:16:26+00:00"
+            "time": "2022-10-21T19:35:53+00:00"
         },
         {
             "name": "papyrus/domain-event-registry",
-            "version": "0.1.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/domain-event-registry.git",
-                "reference": "c83a0502a5ede7319b9d17ac6f38ed7693840876"
+                "reference": "3ecb91d1fca1ecc8ad399abebefd7361d6f702b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/c83a0502a5ede7319b9d17ac6f38ed7693840876",
-                "reference": "c83a0502a5ede7319b9d17ac6f38ed7693840876",
+                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/3ecb91d1fca1ecc8ad399abebefd7361d6f702b1",
+                "reference": "3ecb91d1fca1ecc8ad399abebefd7361d6f702b1",
                 "shasum": ""
             },
             "require": {
-                "papyrus/event-sourcing": "^0.1",
+                "doctrine/inflector": "^2.0",
                 "php": "^8.1"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
                 "maglnet/composer-require-checker": "^4.2",
+                "mockery/mockery": "^1.5",
                 "phpro/grumphp-shim": "^1.13",
+                "phpstan/extension-installer": "^1.2",
                 "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^9.5",
                 "scrutinizer/ocular": "^1.9"
             },
@@ -765,82 +861,26 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.1.0"
+                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.3.0"
             },
-            "time": "2022-10-09T07:42:40+00:00"
-        },
-        {
-            "name": "papyrus/event-sourcing",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/papyrusphp/event-sourcing.git",
-                "reference": "aeeb384f34cc0f34aebf1ce4ccf51094e6a3385f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/event-sourcing/zipball/aeeb384f34cc0f34aebf1ce4ccf51094e6a3385f",
-                "reference": "aeeb384f34cc0f34aebf1ce4ccf51094e6a3385f",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.11",
-                "maglnet/composer-require-checker": "^4.2",
-                "phpro/grumphp-shim": "^1.13",
-                "phpstan/phpstan": "^1.8",
-                "phpunit/phpunit": "^9.5",
-                "scrutinizer/ocular": "^1.9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Papyrus\\EventSourcing\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen de Graaf",
-                    "email": "hello@jero.work"
-                }
-            ],
-            "description": "Yet another event sourcing library for PHP",
-            "keywords": [
-                "cqrs",
-                "ddd",
-                "domain-driven-design",
-                "event-sourcing",
-                "papyrus"
-            ],
-            "support": {
-                "issues": "https://github.com/papyrusphp/event-sourcing/issues",
-                "source": "https://github.com/papyrusphp/event-sourcing/tree/0.1.0"
-            },
-            "time": "2022-10-09T05:28:45+00:00"
+            "time": "2022-10-21T18:56:31+00:00"
         },
         {
             "name": "papyrus/event-store",
-            "version": "0.1.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/event-store.git",
-                "reference": "06373266ad1a239bdb3792aaefd5f3bcd5c4079f"
+                "reference": "4f760e036dcb8b5488978a34a0144b744c4925b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/event-store/zipball/06373266ad1a239bdb3792aaefd5f3bcd5c4079f",
-                "reference": "06373266ad1a239bdb3792aaefd5f3bcd5c4079f",
+                "url": "https://api.github.com/repos/papyrusphp/event-store/zipball/4f760e036dcb8b5488978a34a0144b744c4925b1",
+                "reference": "4f760e036dcb8b5488978a34a0144b744c4925b1",
                 "shasum": ""
             },
             "require": {
                 "papyrus/clock": "^0.1",
-                "papyrus/event-sourcing": "^0.1",
                 "papyrus/identity-generator": "^0.1",
                 "php": "^8.1"
             },
@@ -883,9 +923,9 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/event-store/issues",
-                "source": "https://github.com/papyrusphp/event-store/tree/0.1.0"
+                "source": "https://github.com/papyrusphp/event-store/tree/0.3.0"
             },
-            "time": "2022-10-09T07:51:13+00:00"
+            "time": "2022-10-21T19:29:27+00:00"
         },
         {
             "name": "papyrus/identity-generator",
@@ -1000,31 +1040,25 @@
         },
         {
             "name": "papyrus/serializer",
-            "version": "0.1.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/serializer.git",
-                "reference": "a9854b28088bdfddd7e345ccbc32234e60ffdcbb"
+                "reference": "065100683249848286731d3f565efccde8a900b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/serializer/zipball/a9854b28088bdfddd7e345ccbc32234e60ffdcbb",
-                "reference": "a9854b28088bdfddd7e345ccbc32234e60ffdcbb",
+                "url": "https://api.github.com/repos/papyrusphp/serializer/zipball/065100683249848286731d3f565efccde8a900b7",
+                "reference": "065100683249848286731d3f565efccde8a900b7",
                 "shasum": ""
             },
             "require": {
-                "papyrus/event-sourcing": "^0.1",
                 "php": "^8.1"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
-                "maglnet/composer-require-checker": "^4.2",
-                "mockery/mockery": "^1.5",
                 "phpro/grumphp-shim": "^1.13",
-                "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan": "^1.8",
-                "phpstan/phpstan-mockery": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^9.5",
                 "scrutinizer/ocular": "^1.9"
             },
@@ -1056,28 +1090,31 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/serializer/issues",
-                "source": "https://github.com/papyrusphp/serializer/tree/0.1.0"
+                "source": "https://github.com/papyrusphp/serializer/tree/0.3.0"
             },
-            "time": "2022-10-09T05:48:26+00:00"
+            "time": "2022-10-21T18:11:13+00:00"
         },
         {
             "name": "papyrus/symfony-serializer",
-            "version": "0.1.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/symfony-serializer.git",
-                "reference": "ad39e33af5c16179dd7fb4609e727695896047d4"
+                "reference": "fbf69cb261e2187abfb9e6956bb1be4666e809dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/symfony-serializer/zipball/ad39e33af5c16179dd7fb4609e727695896047d4",
-                "reference": "ad39e33af5c16179dd7fb4609e727695896047d4",
+                "url": "https://api.github.com/repos/papyrusphp/symfony-serializer/zipball/fbf69cb261e2187abfb9e6956bb1be4666e809dc",
+                "reference": "fbf69cb261e2187abfb9e6956bb1be4666e809dc",
                 "shasum": ""
             },
             "require": {
-                "papyrus/serializer": "^0.1",
+                "papyrus/serializer": "^0.3",
                 "php": "^8.1",
                 "symfony/serializer": "^6.1"
+            },
+            "provide": {
+                "papyrus/serializer-implementation": "0.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -1117,41 +1154,48 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/symfony-serializer/issues",
-                "source": "https://github.com/papyrusphp/symfony-serializer/tree/0.1.1"
+                "source": "https://github.com/papyrusphp/symfony-serializer/tree/0.3.0"
             },
-            "time": "2022-10-09T14:28:39+00:00"
+            "time": "2022-10-21T18:21:41+00:00"
         },
         {
             "name": "phpdocumentor/reflection",
-            "version": "5.2.0",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/Reflection.git",
-                "reference": "936e4dde326e6ba42feb46cb7a89688a9425356f"
+                "reference": "9887ef960405afc97e0e3da48be3656fa4a81a13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/936e4dde326e6ba42feb46cb7a89688a9425356f",
-                "reference": "936e4dde326e6ba42feb46cb7a89688a9425356f",
+                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/9887ef960405afc97e0e3da48be3656fa4a81a13",
+                "reference": "9887ef960405afc97e0e3da48be3656fa4a81a13",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.13",
-                "php": ">=7.2",
+                "php": "^7.4|8.0.*|8.1.*",
                 "phpdocumentor/reflection-common": "^2.1",
                 "phpdocumentor/reflection-docblock": "^5",
                 "phpdocumentor/type-resolver": "^1.2",
-                "psr/log": "~1.0",
                 "webmozart/assert": "^1.7"
             },
             "require-dev": {
                 "mikey179/vfsstream": "~1.2",
-                "mockery/mockery": "~1.3.2"
+                "mockery/mockery": "~1.5.0",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-php-parser": "^1.1",
+                "phpstan/phpstan-webmozart-assert": "^1.2",
+                "phpunit/phpunit": "^9.5",
+                "rector/rector": "^0.14.5",
+                "vimeo/psalm": "^4.25"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-4.x": "5.0.x-dev"
+                    "dev-5.x": "5.3.x-dev"
                 }
             },
             "autoload": {
@@ -1173,9 +1217,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpDocumentor/Reflection/issues",
-                "source": "https://github.com/phpDocumentor/Reflection/tree/5.2.0"
+                "source": "https://github.com/phpDocumentor/Reflection/tree/5.3.0"
             },
-            "time": "2022-04-02T19:58:37+00:00"
+            "time": "2022-10-14T08:02:22+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1289,25 +1333,30 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "77a32518733312af16a44300404e945338981de3"
+                "reference": "48f445a408c131e38cab1c235aa6d2bb7a0bb20d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/77a32518733312af16a44300404e945338981de3",
-                "reference": "77a32518733312af16a44300404e945338981de3",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/48f445a408c131e38cab1c235aa6d2bb7a0bb20d",
+                "reference": "48f445a408c131e38cab1c235aa6d2bb7a0bb20d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
+                "php": "^7.4 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
                 "ext-tokenizer": "*",
-                "psalm/phar": "^4.8"
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpunit/phpunit": "^9.5",
+                "rector/rector": "^0.13.9",
+                "vimeo/psalm": "^4.25"
             },
             "type": "library",
             "extra": {
@@ -1333,9 +1382,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.1"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.2"
             },
-            "time": "2022-03-15T21:29:03+00:00"
+            "time": "2022-10-14T12:47:21+00:00"
         },
         {
             "name": "psr/cache",
@@ -1388,30 +1437,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
-                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "Psr/Log/"
+                    "Psr\\Log\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1432,9 +1481,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.4"
+                "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
-            "time": "2021-05-03T11:20:27+00:00"
+            "time": "2021-07-14T16:46:02+00:00"
         },
         {
             "name": "psr/simple-cache",
