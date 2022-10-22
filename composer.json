@@ -1,6 +1,6 @@
 {
     "name": "papyrus/papyrus",
-    "description": "Yet another event sourcing library for PHP; All Papyrus libraries in one package!",
+    "description": "All Papyrus libraries in one meta package",
     "license": "MIT",
     "type": "metapackage",
     "keywords": [
