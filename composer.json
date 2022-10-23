@@ -18,10 +18,10 @@
     ],
     "require": {
         "php": "^8.1",
-        "papyrus/class-reflection-domain-event-registry": "^0.3",
+        "papyrus/class-reflection-domain-event-registry": "^0.4",
         "papyrus/clock": "^0.1",
-        "papyrus/doctrine-dbal-event-store": "^0.3",
-        "papyrus/domain-event-registry": "^0.3",
+        "papyrus/doctrine-dbal-event-store": "^0.4",
+        "papyrus/domain-event-registry": "^0.4",
         "papyrus/event-store": "^0.3",
         "papyrus/identity-generator": "^0.1",
         "papyrus/ramsey-uuid-identity-generator": "^0.1",

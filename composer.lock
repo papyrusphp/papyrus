@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a458168f4072e5410ad423bc9ea2d16e",
+    "content-hash": "679702695f11faf53ec3ab5de8cec662",
     "packages": [
         {
             "name": "brick/math",
@@ -609,26 +609,26 @@
         },
         {
             "name": "papyrus/class-reflection-domain-event-registry",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/class-reflection-domain-event-registry.git",
-                "reference": "9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3"
+                "reference": "145bf9d8c33dc6cd09d6602b26c3e1021ec46c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3",
-                "reference": "9aa1c0e332aa66ad7dd3cb76bd150ae47104beb3",
+                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/145bf9d8c33dc6cd09d6602b26c3e1021ec46c66",
+                "reference": "145bf9d8c33dc6cd09d6602b26c3e1021ec46c66",
                 "shasum": ""
             },
             "require": {
                 "jerowork/file-class-reflector": "^0.1",
-                "papyrus/domain-event-registry": "^0.3",
+                "papyrus/domain-event-registry": "^0.4",
                 "php": "^8.1",
                 "psr/simple-cache": "^1.0 || ^2.0 || ^3.0"
             },
             "provide": {
-                "papyrus/domain-event-registry-implementation": "0.2"
+                "papyrus/domain-event-registry-implementation": "0.4"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -672,9 +672,9 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/class-reflection-domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.4.0"
             },
-            "time": "2022-10-21T19:13:58+00:00"
+            "time": "2022-10-23T07:05:23+00:00"
         },
         {
             "name": "papyrus/clock",
@@ -735,27 +735,27 @@
         },
         {
             "name": "papyrus/doctrine-dbal-event-store",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/doctrine-dbal-event-store.git",
-                "reference": "8659b2544dd6fefd76dc7834e43b4a6842ad4f5f"
+                "reference": "ac458309acd8483ded5b31a0d796c85b793f3b3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/8659b2544dd6fefd76dc7834e43b4a6842ad4f5f",
-                "reference": "8659b2544dd6fefd76dc7834e43b4a6842ad4f5f",
+                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/ac458309acd8483ded5b31a0d796c85b793f3b3e",
+                "reference": "ac458309acd8483ded5b31a0d796c85b793f3b3e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^3.4",
-                "papyrus/domain-event-registry": "^0.3",
+                "papyrus/domain-event-registry": "^0.4",
                 "papyrus/event-store": "^0.3",
                 "papyrus/serializer": "^0.3",
                 "php": "^8.1"
             },
             "provide": {
-                "papyrus/event-store-implementation": "0.2"
+                "papyrus/event-store-implementation": "0.3"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -799,22 +799,22 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/doctrine-dbal-event-store/issues",
-                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.4.0"
             },
-            "time": "2022-10-21T19:35:53+00:00"
+            "time": "2022-10-23T07:15:08+00:00"
         },
         {
             "name": "papyrus/domain-event-registry",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/domain-event-registry.git",
-                "reference": "3ecb91d1fca1ecc8ad399abebefd7361d6f702b1"
+                "reference": "a53fb6d500454a6223f01f60d1ac0073341c16fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/3ecb91d1fca1ecc8ad399abebefd7361d6f702b1",
-                "reference": "3ecb91d1fca1ecc8ad399abebefd7361d6f702b1",
+                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/a53fb6d500454a6223f01f60d1ac0073341c16fb",
+                "reference": "a53fb6d500454a6223f01f60d1ac0073341c16fb",
                 "shasum": ""
             },
             "require": {
@@ -861,9 +861,9 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.4.0"
             },
-            "time": "2022-10-21T18:56:31+00:00"
+            "time": "2022-10-23T06:59:09+00:00"
         },
         {
             "name": "papyrus/event-store",
