@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "679702695f11faf53ec3ab5de8cec662",
+    "content-hash": "fef91cd5936e9f16a2dcaed79bb77452",
     "packages": [
         {
             "name": "brick/math",
@@ -157,23 +157,23 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.4.5",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e"
+                "reference": "f38ee8aaca2d58ee88653cb34a6a3880c23f38a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
-                "reference": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/f38ee8aaca2d58ee88653cb34a6a3880c23f38a5",
+                "reference": "f38ee8aaca2d58ee88653cb34a6a3880c23f38a5",
                 "shasum": ""
             },
             "require": {
                 "composer-runtime-api": "^2",
                 "doctrine/cache": "^1.11|^2.0",
                 "doctrine/deprecations": "^0.5.3|^1",
-                "doctrine/event-manager": "^1.0",
+                "doctrine/event-manager": "^1|^2",
                 "php": "^7.4 || ^8.0",
                 "psr/cache": "^1|^2|^3",
                 "psr/log": "^1|^2|^3"
@@ -181,14 +181,14 @@
             "require-dev": {
                 "doctrine/coding-standard": "10.0.0",
                 "jetbrains/phpstorm-stubs": "2022.2",
-                "phpstan/phpstan": "1.8.3",
-                "phpstan/phpstan-strict-rules": "^1.3",
-                "phpunit/phpunit": "9.5.24",
+                "phpstan/phpstan": "1.8.10",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpunit/phpunit": "9.5.25",
                 "psalm/plugin-phpunit": "0.17.0",
                 "squizlabs/php_codesniffer": "3.7.1",
                 "symfony/cache": "^5.4|^6.0",
                 "symfony/console": "^4.4|^5.4|^6.0",
-                "vimeo/psalm": "4.27.0"
+                "vimeo/psalm": "4.29.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -248,7 +248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.4.5"
+                "source": "https://github.com/doctrine/dbal/tree/3.5.1"
             },
             "funding": [
                 {
@@ -264,7 +264,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-23T17:48:57+00:00"
+            "time": "2022-10-24T07:26:18+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -311,30 +311,29 @@
         },
         {
             "name": "doctrine/event-manager",
-            "version": "1.2.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "95aa4cb529f1e96576f3fda9f5705ada4056a520"
+                "reference": "750671534e0241a7c50ea5b43f67e23eb5c96f32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/95aa4cb529f1e96576f3fda9f5705ada4056a520",
-                "reference": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
+                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/750671534e0241a7c50ea5b43f67e23eb5c96f32",
+                "reference": "750671534e0241a7c50ea5b43f67e23eb5c96f32",
                 "shasum": ""
             },
             "require": {
-                "doctrine/deprecations": "^0.5.3 || ^1",
-                "php": "^7.1 || ^8.0"
+                "php": "^8.1"
             },
             "conflict": {
                 "doctrine/common": "<2.9"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9 || ^10",
-                "phpstan/phpstan": "~1.4.10 || ^1.8.8",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.24"
+                "doctrine/coding-standard": "^10",
+                "phpstan/phpstan": "^1.8.8",
+                "phpunit/phpunit": "^9.5",
+                "vimeo/psalm": "^4.28"
             },
             "type": "library",
             "autoload": {
@@ -383,7 +382,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/event-manager/issues",
-                "source": "https://github.com/doctrine/event-manager/tree/1.2.0"
+                "source": "https://github.com/doctrine/event-manager/tree/2.0.0"
             },
             "funding": [
                 {
@@ -399,7 +398,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-12T20:51:15+00:00"
+            "time": "2022-10-12T20:59:15+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -553,16 +552,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.15.1",
+            "version": "v4.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900"
+                "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
-                "reference": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
+                "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
                 "shasum": ""
             },
             "require": {
@@ -603,22 +602,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.2"
             },
-            "time": "2022-09-04T07:30:47+00:00"
+            "time": "2022-11-12T15:38:23+00:00"
         },
         {
             "name": "papyrus/class-reflection-domain-event-registry",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/class-reflection-domain-event-registry.git",
-                "reference": "145bf9d8c33dc6cd09d6602b26c3e1021ec46c66"
+                "reference": "fcda03ee094b5ae1fa44c56d699c4afaa5c570e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/145bf9d8c33dc6cd09d6602b26c3e1021ec46c66",
-                "reference": "145bf9d8c33dc6cd09d6602b26c3e1021ec46c66",
+                "url": "https://api.github.com/repos/papyrusphp/class-reflection-domain-event-registry/zipball/fcda03ee094b5ae1fa44c56d699c4afaa5c570e1",
+                "reference": "fcda03ee094b5ae1fa44c56d699c4afaa5c570e1",
                 "shasum": ""
             },
             "require": {
@@ -672,26 +671,30 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/class-reflection-domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.4.0"
+                "source": "https://github.com/papyrusphp/class-reflection-domain-event-registry/tree/0.4.1"
             },
-            "time": "2022-10-23T07:05:23+00:00"
+            "time": "2022-11-02T17:44:17+00:00"
         },
         {
             "name": "papyrus/clock",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/clock.git",
-                "reference": "68f4e583e8eb625c38b77490cc494c8b9c5c45e3"
+                "reference": "77f1c7b8559b28660807c8b2db88f47c1c6e4e47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/clock/zipball/68f4e583e8eb625c38b77490cc494c8b9c5c45e3",
-                "reference": "68f4e583e8eb625c38b77490cc494c8b9c5c45e3",
+                "url": "https://api.github.com/repos/papyrusphp/clock/zipball/77f1c7b8559b28660807c8b2db88f47c1c6e4e47",
+                "reference": "77f1c7b8559b28660807c8b2db88f47c1c6e4e47",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.1",
+                "psr/clock": "^1.0"
+            },
+            "provide": {
+                "psr/clock-implementation": "1.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -729,28 +732,28 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/clock/issues",
-                "source": "https://github.com/papyrusphp/clock/tree/0.1.0"
+                "source": "https://github.com/papyrusphp/clock/tree/0.2.0"
             },
-            "time": "2022-10-08T14:34:16+00:00"
+            "time": "2022-12-13T07:31:14+00:00"
         },
         {
             "name": "papyrus/doctrine-dbal-event-store",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/doctrine-dbal-event-store.git",
-                "reference": "ac458309acd8483ded5b31a0d796c85b793f3b3e"
+                "reference": "835c4f2075c4b3a72b248a28d8907f67c9d89ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/ac458309acd8483ded5b31a0d796c85b793f3b3e",
-                "reference": "ac458309acd8483ded5b31a0d796c85b793f3b3e",
+                "url": "https://api.github.com/repos/papyrusphp/doctrine-dbal-event-store/zipball/835c4f2075c4b3a72b248a28d8907f67c9d89ab9",
+                "reference": "835c4f2075c4b3a72b248a28d8907f67c9d89ab9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^3.4",
                 "papyrus/domain-event-registry": "^0.4",
-                "papyrus/event-store": "^0.3",
+                "papyrus/event-store": "^0.4",
                 "papyrus/serializer": "^0.3",
                 "php": "^8.1"
             },
@@ -799,22 +802,22 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/doctrine-dbal-event-store/issues",
-                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.4.0"
+                "source": "https://github.com/papyrusphp/doctrine-dbal-event-store/tree/0.5.0"
             },
-            "time": "2022-10-23T07:15:08+00:00"
+            "time": "2022-12-13T08:14:39+00:00"
         },
         {
             "name": "papyrus/domain-event-registry",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/domain-event-registry.git",
-                "reference": "a53fb6d500454a6223f01f60d1ac0073341c16fb"
+                "reference": "1578d83705732166adbabb758f5bf16f06ce3ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/a53fb6d500454a6223f01f60d1ac0073341c16fb",
-                "reference": "a53fb6d500454a6223f01f60d1ac0073341c16fb",
+                "url": "https://api.github.com/repos/papyrusphp/domain-event-registry/zipball/1578d83705732166adbabb758f5bf16f06ce3ee3",
+                "reference": "1578d83705732166adbabb758f5bf16f06ce3ee3",
                 "shasum": ""
             },
             "require": {
@@ -832,6 +835,9 @@
                 "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^9.5",
                 "scrutinizer/ocular": "^1.9"
+            },
+            "suggest": {
+                "papyrus/class-reflection-domain-event-registry": "Domain event registry implementation based on class reflection"
             },
             "type": "library",
             "autoload": {
@@ -861,28 +867,29 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/domain-event-registry/issues",
-                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.4.0"
+                "source": "https://github.com/papyrusphp/domain-event-registry/tree/0.4.1"
             },
-            "time": "2022-10-23T06:59:09+00:00"
+            "time": "2022-11-02T17:39:15+00:00"
         },
         {
             "name": "papyrus/event-store",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/event-store.git",
-                "reference": "4f760e036dcb8b5488978a34a0144b744c4925b1"
+                "reference": "1871ee34d0a12e4b146a8e4531841dc53e9284d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/event-store/zipball/4f760e036dcb8b5488978a34a0144b744c4925b1",
-                "reference": "4f760e036dcb8b5488978a34a0144b744c4925b1",
+                "url": "https://api.github.com/repos/papyrusphp/event-store/zipball/1871ee34d0a12e4b146a8e4531841dc53e9284d3",
+                "reference": "1871ee34d0a12e4b146a8e4531841dc53e9284d3",
                 "shasum": ""
             },
             "require": {
-                "papyrus/clock": "^0.1",
+                "papyrus/clock": "^0.2",
                 "papyrus/identity-generator": "^0.1",
-                "php": "^8.1"
+                "php": "^8.1",
+                "psr/clock": "^1.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -895,6 +902,9 @@
                 "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^9.5",
                 "scrutinizer/ocular": "^1.9"
+            },
+            "suggest": {
+                "papyrus/doctrine-dbal-event-store": "Event store implementation based on doctrine/dbal"
             },
             "type": "library",
             "autoload": {
@@ -923,9 +933,9 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/event-store/issues",
-                "source": "https://github.com/papyrusphp/event-store/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/event-store/tree/0.4.0"
             },
-            "time": "2022-10-21T19:29:27+00:00"
+            "time": "2022-12-13T07:53:11+00:00"
         },
         {
             "name": "papyrus/identity-generator",
@@ -1040,16 +1050,16 @@
         },
         {
             "name": "papyrus/serializer",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/serializer.git",
-                "reference": "065100683249848286731d3f565efccde8a900b7"
+                "reference": "6ad4d662ddc20b8ef1c967075a0695333f12f1be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/serializer/zipball/065100683249848286731d3f565efccde8a900b7",
-                "reference": "065100683249848286731d3f565efccde8a900b7",
+                "url": "https://api.github.com/repos/papyrusphp/serializer/zipball/6ad4d662ddc20b8ef1c967075a0695333f12f1be",
+                "reference": "6ad4d662ddc20b8ef1c967075a0695333f12f1be",
                 "shasum": ""
             },
             "require": {
@@ -1061,6 +1071,9 @@
                 "phpstan/phpstan": "^1.8",
                 "phpunit/phpunit": "^9.5",
                 "scrutinizer/ocular": "^1.9"
+            },
+            "suggest": {
+                "papyrus/symfony-serializer": "Serializer implementation based on symfony/serializer"
             },
             "type": "library",
             "autoload": {
@@ -1090,22 +1103,22 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/serializer/issues",
-                "source": "https://github.com/papyrusphp/serializer/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/serializer/tree/0.3.1"
             },
-            "time": "2022-10-21T18:11:13+00:00"
+            "time": "2022-11-01T19:14:00+00:00"
         },
         {
             "name": "papyrus/symfony-serializer",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/papyrusphp/symfony-serializer.git",
-                "reference": "fbf69cb261e2187abfb9e6956bb1be4666e809dc"
+                "reference": "b150305ba77b439fa6b02031702bf9ba8e064cc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/papyrusphp/symfony-serializer/zipball/fbf69cb261e2187abfb9e6956bb1be4666e809dc",
-                "reference": "fbf69cb261e2187abfb9e6956bb1be4666e809dc",
+                "url": "https://api.github.com/repos/papyrusphp/symfony-serializer/zipball/b150305ba77b439fa6b02031702bf9ba8e064cc3",
+                "reference": "b150305ba77b439fa6b02031702bf9ba8e064cc3",
                 "shasum": ""
             },
             "require": {
@@ -1114,7 +1127,7 @@
                 "symfony/serializer": "^6.1"
             },
             "provide": {
-                "papyrus/serializer-implementation": "0.2"
+                "papyrus/serializer-implementation": "0.3"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.11",
@@ -1154,48 +1167,41 @@
             ],
             "support": {
                 "issues": "https://github.com/papyrusphp/symfony-serializer/issues",
-                "source": "https://github.com/papyrusphp/symfony-serializer/tree/0.3.0"
+                "source": "https://github.com/papyrusphp/symfony-serializer/tree/0.3.1"
             },
-            "time": "2022-10-21T18:21:41+00:00"
+            "time": "2022-11-01T19:06:32+00:00"
         },
         {
             "name": "phpdocumentor/reflection",
-            "version": "5.3.0",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/Reflection.git",
-                "reference": "9887ef960405afc97e0e3da48be3656fa4a81a13"
+                "reference": "936e4dde326e6ba42feb46cb7a89688a9425356f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/9887ef960405afc97e0e3da48be3656fa4a81a13",
-                "reference": "9887ef960405afc97e0e3da48be3656fa4a81a13",
+                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/936e4dde326e6ba42feb46cb7a89688a9425356f",
+                "reference": "936e4dde326e6ba42feb46cb7a89688a9425356f",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.13",
-                "php": "^7.4|8.0.*|8.1.*",
+                "php": ">=7.2",
                 "phpdocumentor/reflection-common": "^2.1",
                 "phpdocumentor/reflection-docblock": "^5",
                 "phpdocumentor/type-resolver": "^1.2",
+                "psr/log": "~1.0",
                 "webmozart/assert": "^1.7"
             },
             "require-dev": {
                 "mikey179/vfsstream": "~1.2",
-                "mockery/mockery": "~1.5.0",
-                "phpspec/prophecy-phpunit": "^2.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.8",
-                "phpstan/phpstan-php-parser": "^1.1",
-                "phpstan/phpstan-webmozart-assert": "^1.2",
-                "phpunit/phpunit": "^9.5",
-                "rector/rector": "^0.14.5",
-                "vimeo/psalm": "^4.25"
+                "mockery/mockery": "~1.3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-5.x": "5.3.x-dev"
+                    "dev-4.x": "5.0.x-dev"
                 }
             },
             "autoload": {
@@ -1217,9 +1223,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpDocumentor/Reflection/issues",
-                "source": "https://github.com/phpDocumentor/Reflection/tree/5.3.0"
+                "source": "https://github.com/phpDocumentor/Reflection/tree/5.2.0"
             },
-            "time": "2022-10-14T08:02:22+00:00"
+            "time": "2022-04-02T19:58:37+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1436,31 +1442,79 @@
             "time": "2021-02-03T23:26:27+00:00"
         },
         {
-            "name": "psr/log",
-            "version": "3.0.0",
+            "name": "psr/clock",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "src"
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1481,9 +1535,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -1617,21 +1671,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.5.1",
+            "version": "4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d"
+                "reference": "ad63bc700e7d021039e30ce464eba384c4a1d40f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a161a26d917604dc6d3aa25100fddf2556e9f35d",
-                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/ad63bc700e7d021039e30ce464eba384c4a1d40f",
+                "reference": "ad63bc700e7d021039e30ce464eba384c4a1d40f",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.8.8 || ^0.9 || ^0.10",
-                "ext-ctype": "*",
                 "ext-json": "*",
                 "php": "^8.0",
                 "ramsey/collection": "^1.0"
@@ -1663,7 +1716,6 @@
             },
             "suggest": {
                 "ext-bcmath": "Enables faster math with arbitrary-precision integers using BCMath.",
-                "ext-ctype": "Enables faster processing of character classification using ctype functions.",
                 "ext-gmp": "Enables faster math with arbitrary-precision integers using GMP.",
                 "ext-uuid": "Enables the use of PeclUuidTimeGenerator and PeclUuidRandomGenerator.",
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
@@ -1695,7 +1747,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.5.1"
+                "source": "https://github.com/ramsey/uuid/tree/4.6.0"
             },
             "funding": [
                 {
@@ -1707,20 +1759,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-16T03:22:46+00:00"
+            "time": "2022-11-05T23:03:38+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4"
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1787,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1773,7 +1825,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1789,20 +1841,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T11:49:31+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-php81",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php81.git",
-                "reference": "13f6d1271c663dc5ae9fb843a8f16521db7687a1"
+                "reference": "707403074c8ea6e2edaf8794b0157a0bfa52157a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/13f6d1271c663dc5ae9fb843a8f16521db7687a1",
-                "reference": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/707403074c8ea6e2edaf8794b0157a0bfa52157a",
+                "reference": "707403074c8ea6e2edaf8794b0157a0bfa52157a",
                 "shasum": ""
             },
             "require": {
@@ -1811,7 +1863,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1852,7 +1904,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -1868,20 +1920,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T11:49:31+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/serializer",
-            "version": "v6.1.6",
+            "version": "v6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "76af774da9daf606d6400f1445b69d23efa3b238"
+                "reference": "e7655a4697c2af2416f0abc6c9f41189ae3eaf0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/76af774da9daf606d6400f1445b69d23efa3b238",
-                "reference": "76af774da9daf606d6400f1445b69d23efa3b238",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/e7655a4697c2af2416f0abc6c9f41189ae3eaf0e",
+                "reference": "e7655a4697c2af2416f0abc6c9f41189ae3eaf0e",
                 "shasum": ""
             },
             "require": {
@@ -1891,7 +1943,7 @@
             "conflict": {
                 "doctrine/annotations": "<1.12",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
-                "phpdocumentor/type-resolver": "<1.4.0",
+                "phpdocumentor/type-resolver": "<1.4.0|>=1.7.0",
                 "symfony/dependency-injection": "<5.4",
                 "symfony/property-access": "<5.4",
                 "symfony/property-info": "<5.4",
@@ -1953,7 +2005,7 @@
             "description": "Handles serializing and deserializing data structures, including object graphs, into array structures or other formats like XML and JSON.",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/serializer/tree/v6.1.6"
+                "source": "https://github.com/symfony/serializer/tree/v6.2.1"
             },
             "funding": [
                 {
@@ -1969,7 +2021,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-12T05:10:31+00:00"
+            "time": "2022-12-04T18:26:13+00:00"
         },
         {
             "name": "webmozart/assert",
